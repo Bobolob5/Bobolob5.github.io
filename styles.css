@@ -6,13 +6,17 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
+    margin-bottom:30px;
     background:#8aa183;
     color:#5f4c2a;
+    border-radius:20px;
+    box-shadow: 5px 10px #b6b17F;
 }
 .assignment img{
     width:200px;
-    margin:10px;
-    border: 4px solid #6B1A00
+    margin-right:20px;
+    border: 4px solid #6B1A00;
+    border-radius:10px;
 }
 h1 {
     color:#496B5E;
@@ -22,4 +26,8 @@ h1 {
 a {
     text-decoration:none;
     color:#5f4c2a;
+}
+
+.assignment a:hover {
+    color: #a05c4a;
 }
